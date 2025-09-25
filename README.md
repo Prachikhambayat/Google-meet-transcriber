@@ -31,7 +31,8 @@ PDF Generation: ReportLab
 Environment Management: python-dotenv
 
 # Folder Structure
-## meet-transcriber/
+```bash
+ meet-transcriber/
 │
 ├── app.py                   # Main Flask app
 ├── templates/
@@ -41,41 +42,40 @@ Environment Management: python-dotenv
 ├── transcripts/             # TXT, PDF, JSON transcripts
 ├── .env                     # Environment variables (API key)
 └── README.md                # Project documentation
+```
+## Setup & Installation
 
-# Setup & Installation
-
- Clone the repository
-
+ **Clone the repository**
+```bash
 git clone https://github.com/Prachikhambayat/google-meet-transcriber.git
 cd google-meet-transcriber
-
-
-Create and activate virtual environment
-
+```
+**Create and activate virtual environment**
+```bash
 python -m venv venv
 source venv/bin/activate        # Linux / Mac
 venv\Scripts\activate           # Windows
+```
 
-
-Install dependencies
-
+**Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-
-Set AssemblyAI API key
-
+**Set AssemblyAI API key**
+```bash
 ASSEMBLYAI_API_KEY=your_assemblyai_key_here
+```
 
-
-Run the Flask app
-
+**Run the Flask app**
+```bash
 python app.py
+```
 
-
-Open in browser
+**Open in browser**
 http://127.0.0.1:8000
 
-# Usage
+## Usage
 
 Go to the Home Page.
 
@@ -87,7 +87,7 @@ View transcript in browser or download as TXT / PDF.
 
 Access previous transcripts at /transcripts endpoint.
 
-# API Endpoints
+## API Endpoints
 Endpoint	Method	Description
 /upload	POST	Upload audio/video file for transcription
 /transcripts	GET	List all transcript metadata
