@@ -4,31 +4,31 @@ A Flask-based web application that allows users to upload Google Meet recordings
 
 # Features
 
-Upload audio/video files via web interface
+-Upload audio/video files via web interface
 
-Transcribe audio using AssemblyAI Speech-to-Text API
+-Transcribe audio using AssemblyAI Speech-to-Text API
 
-Save transcripts in TXT, PDF, and JSON
+-Save transcripts in TXT, PDF, and JSON
 
-List all previous transcripts
+-List all previous transcripts
 
-Download transcripts by ID
+-Download transcripts by ID
 
-Easy to deploy locally or on a server
+-Easy to deploy locally or on a server
 
 # Tech Stack
 
-Backend: Python, Flask
+-Backend: Python, Flask
 
-Frontend: HTML, JavaScript
+-Frontend: HTML, JavaScript
 
-API: AssemblyAI Speech-to-Text
+-API: AssemblyAI Speech-to-Text
 
-Data Storage: Local file system (uploads/ + transcripts/)
+-Data Storage: Local file system (uploads/ + transcripts/)
 
-PDF Generation: ReportLab
+-PDF Generation: ReportLab
 
-Environment Management: python-dotenv
+-Environment Management: python-dotenv
 
 # Folder Structure
 ```bash
@@ -77,18 +77,18 @@ http://127.0.0.1:8000
 
 ## Usage
 
-Go to the Home Page.
+-Go to the Home Page.
 
-Upload a Google Meet recording (mp3, wav, mp4).
+-Upload a Google Meet recording (mp3, wav, mp4).
 
-Wait for transcription (progress may take time for long recordings).
+-Wait for transcription (progress may take time for long recordings).
 
-View transcript in browser or download as TXT / PDF.
+-View transcript in browser or download as TXT / PDF.
 
-Access previous transcripts at /transcripts endpoint.
+-Access previous transcripts at /transcripts endpoint.
 
 ## API Endpoints
 Endpoint	Method	Description
-/upload	POST	Upload audio/video file for transcription
-/transcripts	GET	List all transcript metadata
-/download/<tid>/<ftype>	GET	Download transcript (txt/pdf) by ID
+-/upload	POST	Upload audio/video file for transcription
+-/transcripts	GET	List all transcript metadata
+-/download/<tid>/<ftype>	GET	Download transcript (txt/pdf) by ID
