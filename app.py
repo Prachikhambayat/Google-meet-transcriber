@@ -103,10 +103,11 @@ def download_transcript(tid, ftype):
     ext = "txt" if ftype.lower() == "txt" else "pdf"
 
     # Use your absolute transcripts folder path
-    local_trans_folder = r"C:\Users\prach\OneDrive\Desktop\React practice\assesment\a1_flask\transcripts"
+    local_trans_folder = r" folder_url"
 
     return send_from_directory(local_trans_folder, f"{tid}.{ext}", as_attachment=True)
 
 # ---- Run App ----
 if __name__ == "__main__":
     app.run(port=8000, debug=True)
+
