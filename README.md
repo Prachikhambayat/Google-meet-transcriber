@@ -44,7 +44,7 @@ meet-transcriber/
 
 # Setup & Installation
 
-# Clone the repository
+ Clone the repository
 
 git clone https://github.com/Prachikhambayat/google-meet-transcriber.git
 cd google-meet-transcriber
