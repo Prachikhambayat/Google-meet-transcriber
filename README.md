@@ -20,7 +20,7 @@ Easy to deploy locally or on a server
 
 Backend: Python, Flask
 
-Frontend: HTML, JavaScript, Jinja2 templates
+Frontend: HTML, JavaScript
 
 API: AssemblyAI Speech-to-Text
 
