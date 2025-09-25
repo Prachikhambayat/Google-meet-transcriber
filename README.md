@@ -31,7 +31,7 @@ PDF Generation: ReportLab
 Environment Management: python-dotenv
 
 # Folder Structure
-meet-transcriber/
+## meet-transcriber/
 │
 ├── app.py                   # Main Flask app
 ├── templates/
